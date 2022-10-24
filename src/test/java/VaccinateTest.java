@@ -126,4 +126,14 @@ public class VaccinateTest extends TestCase {
         Vaccinate test = new Vaccinate();
         assertEquals(false, test.checkCovid(70,40));
     }
+    
+    public void testCheckCovid() {
+        Vaccinate test = new Vaccinate();
+        assertEquals(false, test.checkCovid(70,40));
+    }
+    
+    public void testCheckCovid() {
+        Vaccinate test = new Vaccinate();
+        assertEquals(false, test.checkCovid(70,40));
+    }
 }
